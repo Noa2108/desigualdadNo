@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-size: contain;
+    font-family: 'Noto Sans Mono', monospace;
+}
+#nav1{
+    transition: background-color .4s ease-in;
+}
+#nav1:hover{
+    background-color: rgb(54, 92, 108);
+}
+#nav2{
+    transition: background-color .4s ease-in;
+}
+#nav2:hover{
+    background-color: rgb(54, 92, 108);
+}
+#nav3{
+    transition: background-color .4s ease-in;
+}
+#nav3:hover{
+    background-color: rgb(54, 92, 108);
+}
+.logo{
+    padding-right: 10px;
+    display: block;
+    width: 5%;
+    height: 5%;
+    min-width: 55px;
+}
+a:link{
+    color: greenyellow;
+}
+a:visited{
+    color: rgb(131, 61, 131);
+}
+a:hover{
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 85), 0 0 0.2em rgb(251, 0, 255);
+}
+main{
+    background: rgb(141,250,236);
+    background: linear-gradient(0deg, rgba(141,250,236,1) 0%, rgba(138,65,201,1) 100%);
+}
+#lista1{
+    width: 40%;
+    font-size: 40px;
+    color:brown;
+    text-decoration: underline;
+}
+.correo{
+    margin-left: 65px;
+    font-size: 25px;
+    color: yellow;
+}
+.ig{
+    margin-left: 65px;
+    font-size: 25px;
+    color: yellow;
+}
+.tel{
+    margin-left: 65px;
+    font-size: 25px;
+    color: yellow;
+}
+.c3{
+    background-image: url(/img/desigualdad.jpg) ;
+    display: block;
+}
+.card1{
+    min-height: max-content;
+    max-width: 550px;
+    margin-left: 5px;
+    border-color: rgb(62, 103, 105);
+    border-style:dashed;
+    border-radius: 5px;
+}
+.card2{
+    min-height: max-content;
+    max-width: 550px;
+    border-color: rgb(62, 103, 105);
+    border-style: dashed;
+    border-radius: 5px;
+}
+.card3{
+    min-height: max-content;
+    max-width: 550px;
+    border-color: rgb(62, 103, 105);
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+.b1{
+    color: rgba(128, 255, 0, 0.555);
+    background-color: rgb(62, 103, 105);
+    display: block;
+}
+.b2{
+    color: rgba(128, 255, 0, 0.555);
+    background-color: rgb(62, 103, 105);
+    display: block;
+}
+.b3{
+    color: rgba(128, 255, 0, 0.555);
+    background-color: rgb(62, 103, 105);
+    display: block;
+}
+footer{
+    background: rgba(141,250,236,1);
+}
+.f1{
+    color: rgba(0, 0, 0, 0.688);
+}
+.f2{
+    color: rgba(0, 0, 0, 0.688);
+}
+.f3{
+    color: rgba(0, 0, 0, 0.688);
+}
+.f4{
+    color: rgba(0, 0, 0, 0.688);
+}
